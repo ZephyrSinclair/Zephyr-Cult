@@ -54,3 +54,12 @@ li:hover {
     cursor:move;
 }
 
+@media (max-width: 840px) {
+    #logo {
+        font-size: 2rem;
+    }
+    li {
+        font-size: 1.3rem;
+
+    }
+}
