@@ -27,7 +27,13 @@ body {
 -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-style: italic;
-    font-weight: 700
+    font-weight: 700;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
 }
 
  #logo, li {
@@ -35,8 +41,8 @@ body {
 } 
 
 #logo:hover, li:hover {
-  font-size: 1.5rem; /* or any size you want on hover */
-  color: #ff6600;    /* example color change */
+  font-size: 1.5rem; 
+  color: #ff6600;   
 }
 
 .gradient-highlight {
@@ -48,9 +54,6 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 
 }
-
-
-
 
 #join-button {
     display: flex;
@@ -114,6 +117,14 @@ li:hover {
     cursor:move;
 }
 
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 @media (max-width: 600px) {}
     #logo {
@@ -126,11 +137,9 @@ li:hover {
         height: 17vh;        
         justify-content: center;
         margin-top: 2vh;
-
-     }
+    }
      #hero {
         margin-top: 30vh;
         font-size: 1.5rem;
-        
 }
 
