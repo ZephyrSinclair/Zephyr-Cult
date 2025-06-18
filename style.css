@@ -30,6 +30,52 @@ body {
     font-weight: 700
 }
 
+ #logo, li {
+  transition: font-size 0.3s, color 0.3s;
+} 
+
+#logo:hover, li:hover {
+  font-size: 1.5rem; /* or any size you want on hover */
+  color: #ff6600;    /* example color change */
+}
+
+.gradient-highlight {
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(117, 114, 252, 0.944) 0%, rgba(50, 215, 193, 0.725) 100.7% );
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+
+
+#join-button {
+    display: flex;
+    place-items: center;
+    font-size: 1.5rem;    
+    margin: 10vh 3vw 0 0;
+    padding: 0.5rem 1rem;
+    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: 2px solid seashell;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#join-button:hover {
+    background-color: seashell;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    
+}
 
 ul {
     display: flex;
