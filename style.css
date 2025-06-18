@@ -117,6 +117,321 @@ li:hover {
     cursor:move;
 }
 
+/* star styles */
+
+.star-one {
+    position: absolute;
+    animation-name: star-one-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    top: 335px;
+    right: 150px;
+    z-index: 1;
+}
+
+.star-two {
+    position: absolute;
+    animation-name: star-two-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-delay: 1.5s;    
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;    
+    top: 12px;
+    right: 12px;
+    z-index: 1;
+}
+
+
+.star-three {
+    position: absolute;
+    animation-name: star-three-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 12px;
+    left: 257px;
+    z-index: -3;
+}
+
+.star-four {
+    position: absolute;
+    animation-name: star-four-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: 3s;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: 12px;
+    right: 230px;
+    z-index: 1;
+}
+
+.star-five {
+    position: absolute;
+    animation-name: star-five-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: 12px;
+    left: 630px;
+    z-index: -3;
+}
+
+.star-six {
+    position: absolute;
+    animation-name: star-six-animation;
+    animation-duration: 11s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    top: 12px;
+    left: 740px;
+    z-index: 1;
+}
+
+.star-seven {
+    position: absolute;
+    animation-name: star-seven-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: 12px;
+    right: 530px;
+    z-index: 1;
+}
+
+
+.star-eight {
+    position: absolute;
+    animation-name: star-eight-animation;
+    animation-duration: 10.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: .7s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 12px;
+    left: 30px;
+    z-index: 1;
+}
+
+.star-nine {
+    position: absolute;
+    animation-name: star-nine-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 5.5s;    
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;    
+    top: 12px;
+    left: 30px;
+    z-index: 1;
+}
+
+.star-ten {
+    position: absolute;
+    animation-name: star-ten-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 6.5s;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    top: 12px;
+    right: 670px;
+    z-index: 1; 
+}
+
+.star-eleven {
+    position: absolute;
+    animation-name: star-eleven-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: 7.3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 20px;
+    right: 370px;
+    z-index: 1; 
+}
+
+.star-twelve {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 20px;
+    right: 250px;
+    z-index: 1; 
+}
+
+.star-thirteen {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 20px;
+    right: 395px;
+    z-index: 1; 
+}
+
+.star-fourteen {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 20px;
+    right: 370px;
+    z-index: 1; 
+}
+
+.star-fifteen {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 20px;
+    right: 370px;
+    z-index: 1; 
+}
+
+.star-sixteen {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 20px;
+    right: 370px;
+    z-index: 1; 
+}
+
+.star-seventeen {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    top: 20px;
+    right: 370px;
+    z-index: 1; 
+}
+
+.star-eighteen {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .7s;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    /* position: absolute; */
+    top: 20px;
+    right: 370px;
+    z-index: 1; 
+}
+
+.star-nineteen {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: .3s;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    /* position: absolute; */
+    top: 10px;
+    left: 370px;
+    z-index: 1; 
+}
+
+.star-twenty {
+    position: absolute;
+    animation-name: star-one;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: 1.7s;
+    border-radius: 50%;
+    height: 13px;
+    width: 131px;
+    /* position: absolute; */
+    top: 10px;
+    right: 370px;
+    z-index: 1; 
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -126,20 +441,152 @@ li:hover {
     }
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
     #logo {
         font-size: 2.2rem;
     }
     li {
         font-size: 1.34em;
     }
-     #nav-bar {
+    #nav-bar {
         height: 17vh;        
         justify-content: center;
         margin-top: 2vh;
     }
-     #hero {
+    #hero {
         margin-top: 30vh;
         font-size: 1.5rem;
+    }
 }
 
+@keyframes star-one-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 135px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.5}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.25}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-two-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.75}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-two-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.85}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-three-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.75}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-four-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.85}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-five-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.85}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-six-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.85}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-seven-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.85}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-eight-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.75}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-nine-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.75}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-ten-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.75}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
+
+@keyframes star-ten-animation {
+    0% {background-color: whitesmoke;
+        opacity: 0.0; top: 12px;}
+    25% {background-color: rgb(210, 250, 243);
+        opacity: 0.75}
+    50% {background-color: rgb(167, 228, 252);
+        opacity: 0.35}
+    100% {background-color: rgba(195, 252, 240, 0.867);
+        opacity: 0.0; top: 700px;}
+}
