@@ -53,33 +53,10 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     transition: background-color 0.3s ease, color 0.3s ease;
-
+    padding-left: 3vw
 }
 
-#join-button {
-    display: flex;
-    place-items: center;
-    font-size: 1.5rem;    
-    margin: 10vh 3vw 0 0;
-    padding: 0.5rem 1rem;
-    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
--webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    border: 2px solid seashell;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
 
-#join-button:hover {
-    background-color: seashell;
-    color: black;
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    text-decoration: none;
-    
-}
 
 ul {
     display: flex;
@@ -105,9 +82,21 @@ li {
     padding-left: 10vw;
     padding-right: 10vw;
     color: seashell;
-    margin-top: 25vh;
+    margin-top: 30vh;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
+}
+
+#sub-hero {
+    display: flex;
+    text-align: center;
+     
+    margin-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: seashell;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
 }
 
 
@@ -116,6 +105,41 @@ li:hover {
 -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     cursor:move;
+}
+
+#join-button {
+   display: block;
+   margin: 0 auto;
+    color: seashell;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    
+    
+    z-index: 1000;
+    
+    font-weight: 700;
+    font-size: 1.5rem;    
+    margin: 10vh 3vw 0 0;
+    padding: 0.5rem 1rem;
+    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: 2px solid seashell;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#join-button:hover {
+    background-color: seashell;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    
 }
 
 /* star styles */
@@ -486,6 +510,19 @@ li:hover {
     body {
         overflow-x: hidden;
     }
+    #join-button {
+        margin: 10vh 3vw 0 0;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+    #sub-hero {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: 1rem;
+    }
+    .gradient-highlight {
+        font-size: 1.2rem;
+    }   
 }
 
 @media (max-height: 600px) {
