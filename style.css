@@ -433,6 +433,31 @@ li:hover {
     z-index: 1; 
 }
 
+.star-one,
+.star-two,
+.star-three,
+.star-four,
+.star-five,
+.star-six,
+.star-seven,
+.star-eight,
+.star-nine,
+.star-ten,
+.star-eleven,
+.star-twelve,
+.star-thirteen,
+.star-fourteen,
+.star-fifteen,
+.star-sixteen,
+.star-seventeen,
+.star-eighteen,
+.star-nineteen,
+.star-twenty {
+    pointer-events: none;
+    z-index: -1;
+    position: fixed;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -460,6 +485,7 @@ li:hover {
     }
     body {
         overflow-x: hidden;
+    }
 }
 
 @keyframes star-one-animation {
