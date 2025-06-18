@@ -488,7 +488,25 @@ li:hover {
     }
 }
 
-@keyframes star-one-animation {
+@media (max-height: 600px) {
+    #nav-bar {
+        height: 15vh;
+
+    }
+    #logo {
+        font-size: 2.2rem;
+    }
+    li {
+        font-size: 1.34em;
+    }
+    #hero {
+        margin-top: 20vh;
+        font-size: 1rem;
+    }
+}
+
+
+    @keyframes star-one-animation {
     0% {background-color: whitesmoke;
         opacity: 0.0; top: 135px;}
     25% {background-color: rgb(210, 250, 243);
