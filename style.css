@@ -47,6 +47,20 @@ li {
     font-size: 1.7em;
 }
 
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: seashell;
+    margin-top: 25vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+
 li:hover {
     background: radial-gradient( circle farthest-corner at -1.2% 43.9%,  rgba(252,146,32,1) 16.1%, rgba(255,4,4,1) 74.3% );
 -webkit-text-fill-color: transparent;
@@ -54,12 +68,23 @@ li:hover {
     cursor:move;
 }
 
-@media (max-width: 840px) {
+
+@media (max-width: 600px) {}
     #logo {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     li {
-        font-size: 1.3rem;
-
+        font-size: 1.34em;
     }
+     #nav-bar {
+        height: 17vh;        
+        justify-content: center;
+        margin-top: 2vh;
+
+     }
+     #hero {
+        margin-top: 30vh;
+        font-size: 1.5rem;
+        
 }
+
