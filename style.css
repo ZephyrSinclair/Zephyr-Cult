@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 #nav-bar {
@@ -457,6 +458,8 @@ li:hover {
         margin-top: 30vh;
         font-size: 1.5rem;
     }
+    body {
+        overflow-x: hidden;
 }
 
 @keyframes star-one-animation {
