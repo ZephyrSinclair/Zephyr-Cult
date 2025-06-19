@@ -214,3 +214,17 @@ animation-direction:alternate;
         font-size: 1.4rem
     }
 }
+
+@media (max-height: 600px) {
+    header {
+        height: 10vh;
+    }
+    #logo {
+        font-size: 1.5rem;
+        margin-left: 0.5vw;
+    }
+    #about-card-two {
+        grid-row: 6 / span 3;
+    }
+    
+}
