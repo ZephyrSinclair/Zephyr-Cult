@@ -80,6 +80,18 @@ li {
     font-size: 1.7em;
 }
 
+a {
+    text-decoration: none;
+    color: seashell;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+a:visited {
+    color: seashell;
+    text-decoration: none;
+    
+}
+
 #hero {
     display: flex;
     flex-direction: column;
