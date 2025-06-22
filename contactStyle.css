@@ -1,99 +1,130 @@
 #contact-form-container {
     display: grid;
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(12, 1fr);
     border: 2px solid aliceblue;
     margin-top: 10vh;
     margin-left: 2.5vh;
-    margin-right: 2.5vh;
+    margin-right: 3.5vh;
     height: 68vh;
 }
 
-#contact-form {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    grid-row: 3 / span 12;
-    grid-column: 2 / span 10;
-    border: 2px solid aliceblue;
-    border-radius: 5px;
-    background-color: aliceblue
-}
-
-#contact-card-one {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    border: 2px solid aliceblue;
-    grid-row: 3 / span 12;
-    grid-column: 2 / span 5;
-    border-radius: 7px;
-}
-
-#color-choice {
-    display: flex;
-    grid-row: 1 / span 3;
+#contact-form-border-top {
+    grid-row: 1 / span 1;
     grid-column: 1 / span 12;
-    background-color: beige;
-    width: 100%;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.border-top-tile {
+    border: 1px solid seashell;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+}
+
+#contact-form-border-right {
+    grid-row: 2 /span 11;
+    grid-column: 12 / span 1;
+    
+}
+#contact-form-border-bottom {
+    display: flex;
     justify-content: center;
-    font-size: 1.3rem;
-    font-family: serif;
-    padding-left: 
-}
-
-#color-choice input {
-    margin-left: 6vw;
-}
-
-#pet-choice {
-    display: flex;
     align-items: center;
-    background-color: beige;
-    grid-row: 4 / span 3;
+    font-size: 1.4em;
+    grid-row: 12 / span 1;
     grid-column: 1 / span 12;
+    border: 2px solid aliceblue;
+    color: seashell;
+}
+#contact-form-border-left {
+    grid-row: 1 / span 11;
+    grid-column: 1 / span 1;
+    color: seashell;
+}
+#question-one {
+    display: flex;
+    grid-row: 2 / span 2;
+    grid-column: 2 / span 10;
+    background-color: rgb(99, 99, 44);
+    align-items: center;
     font-size: 1.2em;
-    padding-left: 1vw;
+    padding-left: 2vw;
+    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
-
-#pet-choice input {
-   display: flex;
-   margin-left: 15vw;
+#answer-one {
+    margin-left: 3vw;
+    width: 25%;
 }
-
-#family {
+#question-two {
     display: flex;
+    grid-row: 4 / span 2;
+    grid-column: 2 / span 10;
+    background-color: aqua;
+    font-size: 1.2em;
     align-items: center;
-    background-color: beige;
-    grid-row: 7 / span 4;
-    grid-column: 1 / span 12;
-    font-size: 1.1em;
-    padding-left: 1vw;
+    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.button-answer {
+    margin-left: 3vw; 
+}
+#question-three {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2em;
+    grid-row: 6 / span 2;
+    grid-column: 2 / span 10;
+    text-align: center;
+    padding-top: 1vh;
+    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
-#family input {
+#answer-three {
+    margin-top: 2vh;
     margin-left: 2vw;
+    margin-right: 2vw;
 }
-
-#telephone {
+#question-four {
     display: flex;
+    padding-top: 1vh;
+    flex-direction: column;
     align-items: center;
-    background-color: beige;
-    grid-row: 11 / span 3;
-    grid-column: 1 / span 12;
-    font-size: 1.1em;
-    padding-left: 1vw;
+    font-size: 1.2em;
+    grid-row: 8 / span 2;
+    grid-column:  2 / span 10;
+    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
-
-#social-security {
+#answer-four {
+    margin-top: 2vh;
+    width: 94.5%;
+}
+#question-five {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    font-size: 1.1em;
-    background-color: beige;
-    grid-row: 14 / span 3;
-    grid-column: 1 / span 12;
-    padding-left: 1vw;
+    font-size: 1.2em;
+    grid-row: 10 / span 2;
+    grid-column: 2 / span 10;
+    background-color: aliceblue;
+    padding-top: 1vh;
+    background: linear-gradient( 102.8deg,  rgba(183,235,252,1) 12.3%, rgba(248,193,232,1) 48.6%, rgba(252,244,211,1) 85.1%);
+-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#answer-five {
+    margin-top: 2vh;
+    width: 94.5%;
 }
 
     @keyframes star-one-animation {
@@ -218,8 +249,10 @@
 }
 
 @media (max-width: 480px) {
-   #contact-form {
-    font-size: .7em
-   }}
+   #contact-form-container {
+    height: 90vh;
+   }
+    }
 
+  
   
